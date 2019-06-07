@@ -45,7 +45,7 @@ for(var i = 0; i < 10; i++){
   }
 }
 
-// Carrying mechanism for addition
+// Carrying mechanism for addition (c indicates whether to do recursion)
 function carry(i, c){
   // console.log(bLength);
   // if(row[bLength - i - 1] + int(bNumbers[i]) >= 10){
@@ -86,15 +86,11 @@ function clearBeads(){
 
 // Adds two numbers step by step
 function add(a, b){
-  // for(var i = 0; i < row.length; i++){
-  //   row[i] = 0;
-  // }
-
   clearBeads();
   aNumbers = (""+a).split("");
   aLength = aNumbers.length;
   for(var i = 0; i < aLength; i++){
-    row[aLength - i - 1] = int(aNumbers[i]);
+    row[aLength - i - 1] = int(aNumbers[i]); //animate
   }
   bNumbers = (""+b).split("");
   bLength = bNumbers.length;
@@ -106,8 +102,7 @@ function add(a, b){
       carry(i, 1); // carry if row value is greater or equal to 10
       i = currentI;
     }else{
-      row[bLength - i - 1] += int(bNumbers[i]); // add value to row
-        // don't iterate until fully animated
+      row[bLength - i - 1] += int(bNumbers[i]); // animate; add value to row
     }
   }
 }
