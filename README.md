@@ -7,6 +7,8 @@
 
 This is an abacus simulator, which can simulate a standard school abacus with 10 rows of beads. It can do basic arithmetic operations like addition, subtraction, multiplication, and division. In the future, it will also be able to convert between base systems, such as decimal to hexadecimal or vice versa.
 
+It animates the beads in real time, as shown in the [clip where I figured out how to fix it](https://www.youtube.com/clip/UgkxOIreMiHiVHz_q8NlKkUF8gZzVjAxyMu4). You can also watch that [entire video](https://youtu.be/E3Te0hEpWiU) showing how I used AI to fix my animations years after I started working on this project.
+
 ## Setup
 
 Setup steps:
