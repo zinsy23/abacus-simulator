@@ -80,4 +80,3 @@ The top row can be referenced as `row[9]`. It counts up from the bottom row, so 
 - Add support for subtraction, multiplication, and division
 - Fix a bug with the `add()` function where certain numbers don't add up correctly
 - Add support for converting between base systems
-- Add support for more complex operations, such as square roots and exponents
