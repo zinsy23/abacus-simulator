@@ -16,7 +16,7 @@ Setup steps:
 1. Clone the repository via:
 
 ```bash
-git clone https://github.com/josephzins/abacus-simulator.git
+git clone https://github.com/zinsy23/abacus-simulator.git
 ```
 
 2. Install dependencies via:
