@@ -37,6 +37,8 @@ or
 node server.js
 ```
 
+I also just remembered I do have it [hosted as well](https://abacus-simulator-zinsy23.pages.dev/), so you can do that if you don't want to set up a local server.
+
 ## Usage
 
 To use the simulator, open your browser and navigate to `http://localhost:8000`. Use the developer console to interact with the simulator. Currently, the following operations are supported:
